@@ -1,0 +1,32 @@
+.task-list {
+  list-style: none;
+}
+
+.task-item {
+  background: #f7f7ff;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-item.completed {
+  background: #d4f8e8;
+  text-decoration: line-through;
+  color: #2e7d32;
+}
+
+.task-title {
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: #ff4d4d;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+}
